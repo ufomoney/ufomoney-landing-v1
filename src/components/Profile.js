@@ -1,7 +1,7 @@
 import React from "react"
 import PropTypes from "prop-types"
 import Image from "./Image"
-import { GithubSocial, Keybase, LinkedIn, Twitter } from "./Icons"
+import { GithubSocial, Keybase, LinkedIn, Twitter, Telegram } from "./Icons"
 
 const getIcon = (url) => {
   if (url.includes("twitter")) {
@@ -12,6 +12,8 @@ const getIcon = (url) => {
     return <GithubSocial />
   } else if (url.includes("keybase")) {
     return <Keybase />
+  } else if (url.includes("t.me")) {
+    return <Telegram />
   } else {
     return null
   }
