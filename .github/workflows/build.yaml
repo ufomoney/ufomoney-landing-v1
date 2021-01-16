@@ -1,0 +1,71 @@
+name: Gatsby
+
+on:
+  pull_request:
+    branches: [ master, old-sport ]
+  push:
+    branches: [ master ]
+
+# For pull_request_target:
+#  - Checkout with repository set to PR repo, ref same (see
+#    https://github.com/actions/checkout#usage).
+#  - Trigger from issue comment?
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [12.11.x]
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Use Node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@v1
+      with:
+        node-version: ${{ matrix.node-version }}
+    - run: npm ci
+    - run: npm run lint
+    - if: github.event_name == 'push'
+      run: npm run build --if-present
+    - if: github.event_name == 'pull_request'
+      run: npm run build:prefixed
+      env:
+        GATSBY_BRANCH: ${{ github.head_ref }}
+    - name: "Set up security.txt and .well-known/security.txt"
+      run: |
+         mkdir public/.well-known
+         cp security.txt public/security.txt
+         cp security.txt public/.well-known/security.txt
+    # A push event is a master merge; deploy to primary bucket.
+    - if: github.event_name == 'push'
+      name: Deploy Master to GCP
+      uses: thesis/gcp-storage-bucket-action@v3.1.0
+      with:
+        service-key: ${{ secrets.KEEP_NETWORK_UPLOADER_SERVICE_KEY_JSON }}
+        project: keep-prod-274401
+        bucket-name: keep.network
+        build-folder: public
+    # A pull_request event is a PR; deploy to preview bucket.
+    - if: github.event_name == 'pull_request'
+      name: Deploy PR to GCP
+      uses: thesis/gcp-storage-bucket-action@v3.1.0
+      with:
+        service-key: ${{ secrets.KEEP_NETWORK_UPLOADER_SERVICE_KEY_JSON }}
+        project: keep-prod-274401
+        bucket-name: preview.keep.network
+        bucket-path: ${{ github.head_ref }}
+        build-folder: public
+    # A pull_request event is a PR; leave a comment with the preview URL.
+    - if: github.event_name == 'pull_request'
+      name: Post preview URL to PR
+      uses: actions/github-script@v3
+      with:
+        script: |
+          github.issues.createComment({
+            issue_number: context.issue.number,
+            owner: context.repo.owner,
+            repo: context.repo.repo,
+            body: 'Preview uploaded to https://preview.keep.network/${{ github.head_ref }}/.'
+          })

@@ -1,0 +1,59 @@
+We're thrilled to welcome you to the Keep :keep: community! 
+
+*Here's a quick overview of the available channels:*
+<#C6Q6AR1N3|announcements> - Official announcements by Keep team members.
+<#C6Z9Q82DB|github> - Discuss work on our open source projects.
+<#C776GK7L6|keep> - Discuss anything related to the Keep network.
+<#CD7NK42BV|keep_ru> - Channel for Keep's Russian-speaking community
+<#C6P5D4C5S|random> - Anything not related to the Keep network. 
+<#C6Z9GUQSH|technical> - Discuss the underlying technology and concepts of Keep
+<#C76JFAF0V|welcome> - Introduce yourself to the community!
+
+Frequently Asked Questions: 
+https://www.reddit.com/r/KeepNetwork/comments/anqgb5/keep_network_frequently_asked_questions_faq/
+
+*Keep Team members are:*
+* _Matt Luongo_ (Project Lead) - <@U6Q6AQZ5M>
+* _Corbin Pon_ (Developer & Ops) - <@U6Z9Y0E93>
+* _Antonio Salazar Cardozo_ (Head of Engineering) - <@U7L4NCLCW>
+* _Piotr Dyraga_ (Tech Lead) - <@UAGC1JHKJ>
+* _Laura Wallendal_ (Head of Growth) - <@U6YKKC3MF>
+* _Jarrell James_ (Ecosystem Growth & Innovation Lead) - <@UH642C23B>
+* _Michael Gluzman_ (Head of Design) - <@U96C0RKQT>
+* _Prashanth Irudayaraj_ (Research Manager) - <@U7GNCA2DD>
+* _Erin Ng_ (Developer) - <@U7H04GPBL>
+* _Nik Grinkevich_ (Developer) - <@U73G5RRV3> 
+* _Jakub "Kuba" Nowakowski_ (Developer) - <@UBAQS4CSJ> 
+* _Markus Fix_ (Developer) - <@UDHSFHQR4>
+* _Liam Zebedee_ (Developer) - <@UKQ9AA8EB>
+* _Nicholas Evans_ (Developer) - <@UFN2Q8V8B>
+* _Promethea Raschke_ (Protocol Developer) - <@U8D66U3U6>
+* _Olivia Lovenmark_ (Writer & Communication Strategist) - <@UJUL1RFTP>
+* _Eliza Petrovska_ (Community and Content Manager) - <@U8WCKN0P6>
+
+You can invite your friends by sharing this link with them: https://keep-network.slack.com/
+
+*Some house rules for this community [strictly enforced - report if otherwise]:*
+1. FUDing / Shilling strictly prohibited. 
+2. Please report any suspicious activities (i.e. scams)
+3. Unwarranted/hostile behavior is unacceptable and such members will be removed. 
+5. Never post any ETH/BTC addresses. Violators will be flagged and banned. 
+4. Obvious promotion will be met with immediate ban.
+5. NO Referral links allowed.
+6. Team Flair :keep: is only for team members. Anyone trying to use :keep: will automatically have their account deactivated.
+7. Have fun and ask questions if you have them!
+
+*For more information and other social channels:*
+
+* _Whitepaper (EN)_ - https://keep.network/whitepaper
+* _Whitepaper (RU)_ - https://backend.keep.network/whitepaper-ru
+* _Random Beacon yellowpaper draft PDF_ - http://docs.keep.network/random-beacon/index.pdf
+* _Site_ - https://keep.network/
+* _Blog_ - https://blog.keep.network/
+* _Reddit_ - https://www.reddit.com/r/KeepNetwork/ 
+* _Twitter_ - https://twitter.com/keep_project
+* _Telegram_ - https://t.me/KeepNetworkOfficial
+
+*Note*: We will never message you for contributions or link information directly to the token sale on Slack. Consider all messages and attempts to be SCAMS and report any such behavior!
+
+~ *Keep Team*
