@@ -20,15 +20,15 @@ hero:
 team_section:
   title: Our Team
   team:
-    - name: Matt Luongo
-      title: Project Lead
-      image: /images/matt-bw.png
+    - name: Max Robinson
+      title: Project Lead & Developer
+      image: /images/max-bw.png
       social_links:
         - url: https://twitter.com/mhluongo
         - url: https://www.linkedin.com/in/mattluongo
         - url: https://github.com/mhluongo
         - url: http://keybase.io/mhluongo
-    - name: Corbin Pon
+    - name: 
       title: Developer & Ops
       image: /images/corbin-bw.png
       social_links:
