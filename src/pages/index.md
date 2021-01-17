@@ -3,9 +3,8 @@ template: home-page
 path: /
 title: Home
 hero:
-  title: Builders of tBTC, the safe way to earn with your Bitcoin.
-  body: Keep technology is what sets tBTC apart as the only decentralized solution
-    for Bitcoin on Ethereum.
+  title: UFO Money, the safe way to swap tokens
+  body: UFO Money technology is what will allow you to securely exchange one token for another using smart contracts on the Ethereum blockchain
   bg_image: /images/keep-bg.jpg
   cta:
     label: Start staking to earn rewards.
