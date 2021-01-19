@@ -7,15 +7,15 @@ hero:
   body: UFO Money technology is what will allow you to securely exchange one token for another using smart contracts on the Ethereum blockchain
   bg_image: /images/keep-bg.jpg
   cta:
-    label: Start staking to earn rewards.
+    label: Launch app to make a profit
     icon:
       image: /images/svg/flag-circle.svg
       alt: flag icon
   cta_buttons:
-    - label: Start Staking
-      url: https://dashboard.keep.network/
-    - label: Join our Discord
-      url: https://chat.keep.network/
+    - label: Launch a DEX
+      url: https://app.ufo.money/
+    - label: Join our Telegram
+      url: https://t.me/ufomoneydefi
 team_section:
   title: Our Team
   team:

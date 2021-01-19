@@ -74,7 +74,7 @@ ArrowRightLong.propTypes = {
 }
 
 ArrowRightLong.defaultProps = {
-  color: "#48DBB4",
+  color: "#2C77D9",
   height: "18",
   width: "56",
 }
@@ -91,7 +91,7 @@ export const Axe = ({ height, width }) => (
     <title id="axe-title">Axe Icon</title>
     <path
       d="M25.063 29.375a16.02 16.02 0 0 1 2.675 8.187 1.558 1.558 0 0 0 1.525 1.49A18.729 18.729 0 0 0 48.43 19.885a1.565 1.565 0 0 0-1.492-1.525 16.009 16.009 0 0 1-8.188-2.69M34.334 11.25a16.02 16.02 0 0 1-2.684-8.198 1.562 1.562 0 0 0-1.524-1.485 18.73 18.73 0 0 0-19.167 19.166 1.56 1.56 0 0 0 1.49 1.525 16.008 16.008 0 0 1 8.193 2.68"
-      stroke="#48DBB4"
+      stroke="#2C77D9"
       strokeWidth={2.5}
       strokeLinecap="round"
       strokeLinejoin="round"
@@ -153,7 +153,7 @@ export const BlockchainStorage = ({ height, width }) => (
     />
     <path
       d="M10.82 18.029a.72.72 0 1 0 .719.721.721.721 0 0 0-.722-.721"
-      stroke="#48DBB4"
+      stroke="#2C77D9"
       strokeWidth={2.5}
       strokeLinecap="round"
       strokeLinejoin="round"
@@ -167,7 +167,7 @@ export const BlockchainStorage = ({ height, width }) => (
     />
     <path
       d="M10.82 35.337a.721.721 0 1 0 .719.72.721.721 0 0 0-.722-.72v0"
-      stroke="#48DBB4"
+      stroke="#2C77D9"
       strokeWidth={2.5}
       strokeLinecap="round"
       strokeLinejoin="round"
@@ -183,14 +183,14 @@ export const BlockchainStorage = ({ height, width }) => (
       fillRule="evenodd"
       clipRule="evenodd"
       d="M32.692 44.77a1.5 1.5 0 0 1 1.5-1.5H48.5a1.5 1.5 0 0 1 1.5 1.5v11.422a1.5 1.5 0 0 1-1.5 1.5H34.192a1.5 1.5 0 0 1-1.5-1.5V44.77zM41.346 34.615v0a5.77 5.77 0 0 0-5.769 5.77v2.884h11.539v-2.884a5.77 5.77 0 0 0-5.77-5.77z"
-      stroke="#48DBB4"
+      stroke="#2C77D9"
       strokeWidth={2.5}
       strokeLinecap="round"
       strokeLinejoin="round"
     />
     <path
       d="M41.346 49.815a.721.721 0 1 0 0 1.443.721.721 0 0 0 0-1.443v0"
-      stroke="#48DBB4"
+      stroke="#2C77D9"
       strokeWidth={2.5}
       strokeLinecap="round"
       strokeLinejoin="round"
@@ -261,7 +261,7 @@ export const Cart = ({ height, width }) => (
     <title id="cart-title">Cart Icon</title>
     <path
       d="M35.813 13.938l-4.688 15.624h-12.5L15.5 20.188h18.438M19.406 34.25a.781.781 0 1 1 0 1.563.781.781 0 0 1 0-1.563M30.344 34.25a.781.781 0 1 1 0 1.563.781.781 0 0 1 0-1.563"
-      stroke="#48DBB4"
+      stroke="#2C77D9"
       strokeWidth={2.5}
       strokeLinecap="round"
       strokeLinejoin="round"
@@ -314,7 +314,7 @@ export const CastleGate = ({ height, width }) => (
     <title id="castle-title">Castle Gate Icon</title>
     <path
       d="M29.706 39.89l-25-11.765 2.66-5.654 22.348 10.516M29.706 14.063L12.615 24.94"
-      stroke="#48DBB4"
+      stroke="#2C77D9"
       strokeWidth={2.5}
       strokeLinecap="round"
       strokeLinejoin="round"
@@ -681,14 +681,14 @@ export const Signing = ({ height, width }) => (
     />
     <path
       d="M31.125 52.63a3 3 0 0 0-4.242 0l-3.237 3.235"
-      stroke="#48DBB4"
+      stroke="#2C77D9"
       strokeWidth={1.5}
       strokeLinecap="round"
       strokeLinejoin="round"
     />
     <path
       d="M35.35 52.646a3 3 0 0 0-4.225-.017L25.755 58 30 62.242l5.368-5.37a3 3 0 0 0-.017-4.226zM15.691 72.305l-1.944 1.945"
-      stroke="#48DBB4"
+      stroke="#2C77D9"
       strokeWidth={1.5}
       strokeLinecap="round"
       strokeLinejoin="round"
@@ -711,7 +711,7 @@ export const Signing = ({ height, width }) => (
     />
     <path
       d="M40.968 59.306a3 3 0 0 0-3 3v4.577M43.968 56.33a3 3 0 0 0-3 2.976v7.596l6.002-.003-.002-7.594a3 3 0 0 0-3-2.975zM43.968 84.133v2.75"
-      stroke="#48DBB4"
+      stroke="#2C77D9"
       strokeWidth={1.5}
       strokeLinecap="round"
       strokeLinejoin="round"
@@ -734,7 +734,7 @@ export const Signing = ({ height, width }) => (
     />
     <path
       d="M52.687 56.816a3 3 0 0 0 0 4.242l3.236 3.237M52.704 52.59a3 3 0 0 0-.017 4.226l5.371 5.371 4.242-4.246-5.37-5.368a3 3 0 0 0-4.226.018zM72.363 72.25l1.945 1.944"
-      stroke="#48DBB4"
+      stroke="#2C77D9"
       strokeWidth={1.5}
       strokeLinecap="round"
       strokeLinejoin="round"
@@ -757,7 +757,7 @@ export const Signing = ({ height, width }) => (
     />
     <path
       d="M59.306 46.973a3 3 0 0 0 3 3h4.576M56.33 43.973a3 3 0 0 0 2.976 3H66.9l-.003-6.002-7.593.002a3 3 0 0 0-2.975 3zM84.132 43.973h2.75"
-      stroke="#48DBB4"
+      stroke="#2C77D9"
       strokeWidth={1.5}
       strokeLinecap="round"
       strokeLinejoin="round"
@@ -780,14 +780,14 @@ export const Signing = ({ height, width }) => (
     />
     <path
       d="M56.875 35.312a3 3 0 0 0 4.242 0l3.237-3.236"
-      stroke="#48DBB4"
+      stroke="#2C77D9"
       strokeWidth={1.5}
       strokeLinecap="round"
       strokeLinejoin="round"
     />
     <path
       d="M52.65 35.295a3 3 0 0 0 4.225.017l5.37-5.37L58 25.7l-5.368 5.37a3 3 0 0 0 .017 4.225zM72.309 15.636l1.944-1.945"
-      stroke="#48DBB4"
+      stroke="#2C77D9"
       strokeWidth={1.5}
       strokeLinecap="round"
       strokeLinejoin="round"
@@ -810,7 +810,7 @@ export const Signing = ({ height, width }) => (
     />
     <path
       d="M46.973 28.635a3 3 0 0 0 3-3v-4.577M43.973 31.61a3 3 0 0 0 3-2.975v-7.596l-6.002.003.002 7.593a3 3 0 0 0 3 2.976zM43.973 3.808v-2.75"
-      stroke="#48DBB4"
+      stroke="#2C77D9"
       strokeWidth={1.5}
       strokeLinecap="round"
       strokeLinejoin="round"
@@ -833,14 +833,14 @@ export const Signing = ({ height, width }) => (
     />
     <path
       d="M35.312 31.125a3 3 0 0 0 0-4.242l-3.236-3.237"
-      stroke="#48DBB4"
+      stroke="#2C77D9"
       strokeWidth={1.5}
       strokeLinecap="round"
       strokeLinejoin="round"
     />
     <path
       d="M35.295 35.35a3 3 0 0 0 .017-4.225l-5.37-5.37L25.7 30l5.37 5.368a3 3 0 0 0 4.225-.018zM15.636 15.691l-1.945-1.944"
-      stroke="#48DBB4"
+      stroke="#2C77D9"
       strokeWidth={1.5}
       strokeLinecap="round"
       strokeLinejoin="round"
@@ -863,7 +863,7 @@ export const Signing = ({ height, width }) => (
     />
     <path
       d="M28.635 40.968a3 3 0 0 0-3-3h-4.577M31.611 43.968a3 3 0 0 0-2.976-3H21.04l.003 6.002 7.593-.002a3 3 0 0 0 2.975-3zM3.809 43.968h-2.75"
-      stroke="#48DBB4"
+      stroke="#2C77D9"
       strokeWidth={1.5}
       strokeLinecap="round"
       strokeLinejoin="round"
@@ -952,7 +952,7 @@ export const Switch = ({ height, width }) => (
       fillRule="evenodd"
       clipRule="evenodd"
       d="M26.562 20.313c-.937-2-6.508-13.948-8.287-16.63a4.612 4.612 0 0 0-6.5-1.31 4.61 4.61 0 0 0-1.31 6.498c1.318 1.985 6.516 7.864 9.727 11.441h6.37z"
-      stroke="#48DBB4"
+      stroke="#2C77D9"
       strokeWidth={2.5}
       strokeLinecap="round"
       strokeLinejoin="round"
@@ -1070,7 +1070,7 @@ export const Wallet = ({ height, width }) => (
     <title id="wallet-title">Wallet Icon</title>
     <path
       d="M39.063 13.542L34.21 3.838a3.125 3.125 0 0 0-4.193-1.398L7.813 13.542"
-      stroke="#48DBB4"
+      stroke="#2C77D9"
       strokeWidth={2.5}
       strokeLinecap="round"
       strokeLinejoin="round"
@@ -1086,14 +1086,14 @@ export const Wallet = ({ height, width }) => (
       fillRule="evenodd"
       clipRule="evenodd"
       d="M45.313 38.542c1.725 0 3.124-1.4 3.124-3.125v-9.375c0-1.726-1.399-3.125-3.124-3.125H37.5a7.813 7.813 0 0 0 0 15.625h7.813z"
-      stroke="#48DBB4"
+      stroke="#2C77D9"
       strokeWidth={2.5}
       strokeLinecap="round"
       strokeLinejoin="round"
     />
     <path
       d="M37.5 29.948a.781.781 0 1 1 0 1.563.781.781 0 0 1 0-1.563"
-      stroke="#48DBB4"
+      stroke="#2C77D9"
       strokeWidth={2.5}
       strokeLinecap="round"
       strokeLinejoin="round"
