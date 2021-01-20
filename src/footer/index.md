@@ -24,4 +24,15 @@ nav_categories:
         url: https://t.me/ufomoneydefichat
       - label: GitHub
         url: https://github.com/ufomoney/
+copyright_text: <p>A Stable<sup>*</sup> Build</p><p>© 2020 UFO Money. All Rights Reserved.</p>
+legal_links:
+  - label: Privacy Policy
+    url:
+    is_external_link: false
+  - label: Terms of Use
+    url: 
+    is_external_link: false
+  - label: Playing for UFO Money Terms
+    url: 
+    is_external_link: false
 ---
