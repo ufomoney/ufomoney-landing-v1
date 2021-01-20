@@ -164,7 +164,6 @@ export const HomePageTemplate = ({
           <div className="blurb-text">
             <p>
               Our strength is in our team! Together they repel all attacks and prepare to launch the project into space
-              refuge
             </p>
           </div>
         </div>
