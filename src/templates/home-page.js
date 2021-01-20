@@ -86,7 +86,7 @@ export const HomePageTemplate = ({
 
             <section className="application tbtc">
               <h3>
-                Limit orders, margin and futures trading functionality Also in development is its own blockchain, which will allow you to exchange tokens from different blockchains without paying huge commissions for it!
+                Limit orders, margin and futures trading functionality. Also in development is its own blockchain, which will allow you to exchange tokens from different blockchains without paying huge commissions for it!
               </h3>
 
               <p>
@@ -134,7 +134,7 @@ export const HomePageTemplate = ({
               View the
               <a
                 className="github-logo"
-                href="https://github.com/keep-network"
+                href="https://github.com/ufomoney"
                 rel="noopener noreferrer"
                 target="_blank"
               >
@@ -143,7 +143,7 @@ export const HomePageTemplate = ({
               Repository
               <a
                 className="github-link"
-                href="https://github.com/keep-network"
+                href="https://github.com/ufomoney"
                 rel="noopener noreferrer"
                 target="_blank"
               >

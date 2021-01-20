@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: "Keep Network",
-    titleTemplate: "Keep – %s",
-    description: "",
-    url: "https://keep.network",
+    title: "DeFi service for swapping tokens",
+    titleTemplate: "UFO Money – %s",
+    description: "Exchange erc20 tokens, buy UFO Token and make a profit. Limit and margin trading on our Ethereum commission-free blockchain. The future is near. New DeFi DEX project for new opportunities!",
+    url: "https://ufo.money",
   },
   plugins: [
     "gatsby-plugin-react-helmet",

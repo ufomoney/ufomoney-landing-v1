@@ -5,8 +5,6 @@ nav_items:
     url: "#team"
   - label: Advisors
     url: "#advisors"
-  - label: Press
-    url: /press
-  - label: Blog
-    url: https://blog.keep.network/
+  - label: App
+    url: https://app.ufo.money/
 ---
