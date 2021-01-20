@@ -27,12 +27,12 @@ nav_categories:
 copyright_text: <p>A Stable<sup>*</sup> Build</p><p>© 2020 UFO Money. All Rights Reserved.</p>
 legal_links:
   - label: Privacy Policy
-    url:
+    url: /#home
     is_external_link: false
   - label: Terms of Use
-    url: 
+    url: /#home
     is_external_link: false
   - label: Playing for UFO Money Terms
-    url: 
+    url: /#home
     is_external_link: false
 ---
