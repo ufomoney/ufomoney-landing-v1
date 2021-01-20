@@ -64,14 +64,14 @@ export const HomePageTemplate = ({
             <section className="dashboard-cta d-lg-flex align-items-end">
               <div className="w-lg-40 content order-2 text-center text-lg-left">
                 <h2 className="mt-0 mb-4">
-                  Stake KEEP to operate the network and earn rewards.
+                  Buy UFO Tokens to participate in the UFO Money government and earn rewards
                 </h2>
                 <a
-                  href="https://dashboard.keep.network"
+                  href="https://t.me/getufotokenbot"
                   target="new"
                   className="btn btn-primary d-md-inline-block"
                 >
-                  View token dashboard
+                  Buy UFO Tokens
                 </a>
               </div>
               <div className="w-lg-55 image order-1">&nbsp;</div>
@@ -82,17 +82,15 @@ export const HomePageTemplate = ({
       <PageSection id={sections.FEATURED_APPLICATION}>
         <Row className="featured-application">
           <Col xs={12} sm={12}>
-            <h2>Featured Application</h2>
+            <h2>Currently in development</h2>
 
             <section className="application tbtc">
               <h3>
-                Announcing tBTC: The first “killer app” built using the Keep
-                Network
+                Limit orders, margin and futures trading functionality Also in development is its own blockchain, which will allow you to exchange tokens from different blockchains without paying huge commissions for it!
               </h3>
 
               <p>
-                tBTC lets Bitcoin holders deposit and redeem BTC in DeFi without
-                centralized intermediaries
+                Our future is the functionality of centralized exchanges like Binance, but on blockchain
               </p>
 
               <ul className="links">
@@ -100,18 +98,8 @@ export const HomePageTemplate = ({
                   <a
                     className="primary"
                     rel="noopener noreferrer"
-                    href="https://tbtc.network"
                   >
-                    Go to tBTC Website
-                  </a>
-                </li>
-
-                <li>
-                  <a
-                    rel="noopener noreferrer"
-                    href="https://blog.keep.network/introducing-tbtc-the-safest-way-to-earn-with-your-bitcoin-fec077f171f4?"
-                  >
-                    Read blog post
+                    Coming soon
                   </a>
                 </li>
               </ul>
