@@ -163,10 +163,7 @@ export const HomePageTemplate = ({
           </div>
           <div className="blurb-text">
             <p>
-              Keep: <span>(n.)</span>
-            </p>
-            <p>
-              The strongest or central tower of a castle, acting as a final
+              Our strength is in our team! Together they repel all attacks and prepare to launch the project into space
               refuge
             </p>
           </div>
@@ -194,9 +191,7 @@ export const HomePageTemplate = ({
           </div>
           <div className="blurb-text">
             <p>
-              Keeps provide a bridge between the world of public blockchains and
-              private data. It enables a new wave of ground-up innovation for
-              blockchain developers.
+              UFO Money is developing a solution for margin and futures trading on Ethereum blockchain, which would give users the functionality of centralized exchanges and blockchain security
             </p>
           </div>
         </div>
