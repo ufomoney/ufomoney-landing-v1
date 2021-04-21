@@ -7,6 +7,8 @@
     padding: 6px 60px 6px 15px;
     @extend .light-font;
     font-size: 15px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
 
     a {
         color: $white;

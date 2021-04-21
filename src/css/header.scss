@@ -10,7 +10,7 @@ header {
     }
 
     .navbar {
-        background-color: $background-light-color;
+        background-color: $header-linear-color;
         border-bottom: 0.25px solid $border-color;
         margin: 0 auto;
         padding: 0;
@@ -38,6 +38,7 @@ header {
 
             > li {
                 > a {
+                    color: $white;
                     display: block;
                     font-weight: 400;
                     font-size: 13px;
