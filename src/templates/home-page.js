@@ -122,7 +122,7 @@ export const HomePageTemplate = ({
           </Col>
           <Col xs={12} sm={5} className="col-circles">
             <div>
-              <Image imageData={images.textureCircle2} />
+              {/* <Image imageData={images.textureCircle2} /> */}
             </div>
           </Col>
         </Row>

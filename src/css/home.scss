@@ -21,7 +21,7 @@
 
 .home {
     // background-image: url(../../static/images/hero-bg.jpg); // Set via cms
-    background-color: linear-gradient(90deg,#007ed8,rgba(28,167,219,.92));
+    background: $new-linear-color;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
