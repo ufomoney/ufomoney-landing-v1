@@ -6,27 +6,43 @@
     transition: max-height 0.25s ease-in;
     max-height: none;
 
+    .featured-application {
+        background: linear-gradient(90deg,#075fe2d4,#16a1d5eb);
+    }
+
+    .token-dashboard {
+        background: linear-gradient(90deg,#075fe2d4,#16a1d5eb);
+    }
+
+    .github {
+        background: linear-gradient(90deg,#075fe2d4,#16a1d5eb);
+    }
+
+    .collapsible {
+        background: linear-gradient(90deg,#075fe2d4,#16a1d5eb);
+    }
+
+    .blurb-desktop {
+        background: linear-gradient(90deg,#075fe2d4,#16a1d5eb);
+    }
+
     .page-section-content {
         width: 100%;
         position: relative;
         z-index: 1;
         background: linear-gradient(90deg,#007ed8,rgba(28,167,219,.92));
 
-        .cta-link {
+        .cta-link, .btn-submit, .btn-primary {
             background: linear-gradient(90deg, rgb(0, 126, 217) 16.36%,
              #00dffcf0 106.83%);
              color: $white;
-             
-        }
-
-        .btn-submit {
-            background: linear-gradient(90deg, rgb(0, 126, 217) 16.36%,
-             #00dffcf0 106.83%);
-             color: $white;
+             border-radius: 50px;
 
         }
 
-
+        .col-12 {
+            color:$white;
+        }
     }
 
 
