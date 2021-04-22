@@ -5,26 +5,24 @@
     overflow: visible;
     transition: max-height 0.25s ease-in;
     max-height: none;
-
-    .featured-application {
+        .featured-application :;
+    -webkit-transition: max-height 0.25s ease-in;
+    -moz-transition: max-height 0.25s ease-in;
+    -ms-transition: max-height 0.25s ease-in;
+    -o-transition: max-height 0.25s ease-in;
+{
         background: linear-gradient(90deg,#075fe2d4,#16a1d5eb);
     }
 
-    .token-dashboard {
+    & .token-dashboard {
         background: linear-gradient(90deg,#075fe2d4,#16a1d5eb);
     }
 
-    .github {
+    &.github {
         background: linear-gradient(90deg,#075fe2d4,#16a1d5eb);
     }
 
-    .collapsible {
-        background: linear-gradient(90deg,#075fe2d4,#16a1d5eb);
-    }
 
-    .blurb-desktop {
-        background: linear-gradient(90deg,#075fe2d4,#16a1d5eb);
-    }
 
     .page-section-content {
         width: 100%;
@@ -37,6 +35,7 @@
              #00dffcf0 106.83%);
              color: $white;
              border-radius: 50px;
+             border: none;
 
         }
 
