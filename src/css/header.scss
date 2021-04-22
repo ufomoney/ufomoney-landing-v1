@@ -10,13 +10,11 @@ header {
     }
 
     .navbar {
-        background-color: $header-linear-color;
+        background: $header-linear-color;
         border-bottom: 0.25px solid $border-color;
         margin: 0 auto;
         padding: 0;
         position: relative;
-        border-bottom-left-radius: 50px;
-        border-bottom-right-radius: 50px;
 
         .app-home & {
             background-color: #E2E2E2;
@@ -49,6 +47,7 @@ header {
                     cursor: pointer;
                     transition: color, font-weight 0.25s ease-in;
                     position: relative;
+                    color: $white;
 
                     &[href^=http]:after {
                         content: ' ↗';
