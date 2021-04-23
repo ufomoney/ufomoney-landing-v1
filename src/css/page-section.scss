@@ -1,3 +1,7 @@
+.featured-application {
+    background: $second-linear-color;
+}
+
 .page-section {
     display: flex;
     padding: 40px 0;
@@ -24,6 +28,8 @@
 
         .col-12 {
             color:$white;
+            background: $second-linear-color;
+            
         }
     }
 
