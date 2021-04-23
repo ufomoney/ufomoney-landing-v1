@@ -1,5 +1,5 @@
 .featured-application {
-    background: $second-linear-color;
+    background: none;
 }
 
 .page-section {
@@ -28,8 +28,9 @@
 
         .col-12 {
             color:$white;
+        }
+        .col-sm-12 {
             background: $second-linear-color;
-            
         }
     }
 
