@@ -70,7 +70,7 @@ export const HeaderTemplate = ({ navItems = [] }) => {
             href="/"
             to="home"
           >
-            <Icons.Keep height="61px" width="235px" />
+            <Icons.Keep className="header_logo"/>
           </NavScrollItem>
           {/* Mobile nav hamburger button */}
           <NavbarToggler onClick={toggleNavbar} />
