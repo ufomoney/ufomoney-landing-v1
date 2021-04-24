@@ -146,6 +146,11 @@ footer {
                 width: auto;
                 max-width: 30%;
                 padding: 0 30px 30px;
+                background-position-x: 50%;
+
+                @media screen and (max-width:768px) {
+                    height: 60px;
+                }
             }
 
             li {
