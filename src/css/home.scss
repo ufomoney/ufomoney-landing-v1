@@ -477,6 +477,7 @@
 }
 
 .github {
+    display: none;
     text-align: center;
 
     h3 {
@@ -552,7 +553,8 @@
 }
 
 .supporters {
-    background-color: #0e0e0e;;
+    display: none;
+    background-color: #0e0e0e;
 
     .row {
         justify-content: center;
