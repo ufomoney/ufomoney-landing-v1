@@ -526,6 +526,7 @@
     }
 
     .container-md {
+        color: $white;
         display: flex;
         flex-wrap: wrap;
         position: relative;
@@ -551,7 +552,7 @@
 }
 
 .supporters {
-    background-color: $background-med-color;
+    background-color: #0e0e0e;;
 
     .row {
         justify-content: center;
