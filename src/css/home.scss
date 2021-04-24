@@ -220,7 +220,8 @@
 
 }
 .featured-application {
-
+    background: none;
+    color: $white;
     padding-bottom: 85px;
 
     h2 {
@@ -250,7 +251,7 @@
     }
 
     p {
-        color: $grey-60;
+        color: $white;
         font-weight: 100;
 
         line-height: 1.5rem;
