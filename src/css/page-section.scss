@@ -34,6 +34,11 @@
         .col-sm-12 {
             background: none;
         }
+        .col-sm-5 {
+            @media screen and (max-width: 619px) {
+                display: none;
+            }
+        }
     }
 
 
@@ -143,7 +148,7 @@
     cursor: pointer;
     font-size: 25px;
     font-weight: 800;
-    color: $black;
+    color: $white;
 
     span {
         display: inline-block;
@@ -153,6 +158,10 @@
     svg {
         transform: scale(-1);
         margin: 0 9px 3px;
+        
+        path {
+            fill: $white;
+        }
     }
 
     &:focus {
