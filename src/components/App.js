@@ -2,6 +2,7 @@ import React from "react"
 import PropTypes from "prop-types"
 
 import Footer from "./Footer"
+import AltFooter from "./AltFooter"
 import Header from "./Header"
 import SEO from "./SEO.js"
 
@@ -12,7 +13,7 @@ const App = ({ children, className }) => (
     <SEO />
     <Header />
     {children}
-    <Footer />
+    <AltFooter/>
   </div>
 )
 

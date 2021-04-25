@@ -1,0 +1,43 @@
+.alt_footer {
+  margin-top: 30px;
+  -webkit-box-align: center;
+  align-items: center;
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.line {
+  width: 30%;
+  margin: 25px auto 0px;
+  height: 2px;
+  background: linear-gradient(90deg, #ffffff08 1.74%, 
+  #ffffff 51.03%, #ffffff05 98.7%);
+}
+
+.nav_container {
+  -webkit-box-align: center;
+  align-items: center;
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  height: 72px;
+  max-width: 1200px;
+  width: 100%;
+}
+
+.navigation {
+  -webkit-box-align: center;
+  align-items: center;
+  display: flex;
+}
+
+.nav_link {
+  color: $white;
+  padding-left: 16px;
+  padding-right: 16px;
+  text-decoration: none;
+  font-family: Helvetica;
+  font-weight: bold;
+}
