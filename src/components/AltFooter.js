@@ -2,7 +2,7 @@ import React from "react"
 
 
 const AltFooter = () => 
-  (<footer className="alt_footer">
+  (<div className="alt_footer">
     <div className="line"></div>
     <div class="nav_container">
       <nav class="navigation">

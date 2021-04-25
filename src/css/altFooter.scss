@@ -40,4 +40,9 @@
   text-decoration: none;
   font-family: Helvetica;
   font-weight: bold;
+  text-decoration: none;
+
+  &hover {
+    color: rgb(106, 255, 214);
+  }
 }
