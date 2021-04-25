@@ -373,10 +373,10 @@ Close.propTypes = {
 
 export const Keep = ({nameClass, text}) => (
   <div className={`${nameClass}_container`}>
-    <div className={`${nameClass}_link`}>
+    <a className={`${nameClass}_link`}>
       <div className={`${nameClass}_icon`}></div>
       <span className={`${nameClass}_text`}>{text}</span>
-    </div>
+    </a>
   </div>
 )
 
