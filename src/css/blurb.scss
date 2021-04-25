@@ -1,5 +1,6 @@
 .blurb {
     background: linear-gradient(90deg,#075fe2d4,#16a1d5eb);
+    display: none;
     @media (min-width: #{$bp-medium}) {
         padding: 40px 0;
     }
