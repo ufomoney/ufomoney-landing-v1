@@ -14,6 +14,6 @@ const AltFooter = () =>
         Twitter</a>
       </nav>
     </div>
-  </footer>)
+  </div>)
 
   export default AltFooter;
