@@ -556,7 +556,7 @@ LinkedIn.propTypes = {
 }
 
 LinkedIn.defaultProps = {
-  color: "#0A0806",
+  color: "#FFFF",
   height: "26px",
   width: "27px",
 }
@@ -956,7 +956,7 @@ Telegram.propTypes = {
 }
 
 Telegram.defaultProps = {
-  color: "#91ABA5",
+  color: "#FFFF",
   height: "31px",
   width: "31px",
 }
