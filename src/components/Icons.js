@@ -371,8 +371,13 @@ Close.propTypes = {
   size: PropTypes.oneOfType([PropTypes.number, PropTypes.string]),
 }
 
-export const Keep = () => (
-  <div></div>
+export const Keep = ({nameClass, text}) => (
+  <div className={`${nameClass}_container`}>
+    <a className={`${nameClass}_link`}>
+      <div className={`${nameClass}_icon`}></div>
+      <span className={`${nameClass}_text`}>{text}</span>
+    </a>
+  </div>
 )
 
 Keep.propTypes = {

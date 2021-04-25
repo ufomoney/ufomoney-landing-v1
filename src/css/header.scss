@@ -28,6 +28,32 @@ header {
             }
         }
 
+        .logo_container {
+            width: 260px;
+        }
+
+        .logo_link {
+            -webkit-box-align: center;
+            align-items: center;
+            display: flex;
+            -webkit-box-pack: center;
+            justify-content: center;
+            margin: 0px;
+            min-height: 44px;
+            min-width: 44px;
+            padding: 0px;
+            text-decoration: none;
+        }
+
+        .logo_icon {
+            background-image: url('../images/tbtc-stack.svg');
+
+        }
+
+        .logo_text {
+
+        }
+
         .nav {
             @media (max-width: #{$bp-medium - 1}) {
                 flex-direction: column;
