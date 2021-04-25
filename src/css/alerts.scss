@@ -4,7 +4,7 @@
     background-color: $secondary-color;
     color: $white;
     margin: 1.5em 15px;
-    padding: 6px 60px 0 15px;
+    padding: 2px 45px 0 15px;
     @extend .light-font;
     font-size: 15px;
     border-bottom-left-radius: 50px;
@@ -28,6 +28,7 @@
         justify-content: space-evenly;
 
         img {
+            display: none;
             margin-right: 8px;
         }
     }
@@ -42,11 +43,17 @@
         mix-blend-mode: multiply;
         padding: 6px;
 
+        &:focus {
+            outline: none;
+        }
+
         svg {
             path {
                 fill: $error-color;
             }
         }
+
+
     }
 
     @media (min-width: #{$bp-medium}) {
