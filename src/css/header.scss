@@ -28,6 +28,10 @@ header {
             }
         }
 
+        .scroll-link:hover {
+            text-decoration: none;
+        }
+
         .logo_container {
             width: 100%;
         }
@@ -62,10 +66,6 @@ header {
             
             @media screen and (max-width: 370px) {
                 font-size: 25px;
-            }
-
-            &:hover {
-                text-decoration: none;
             }
         }
 
