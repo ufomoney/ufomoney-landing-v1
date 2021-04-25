@@ -66,6 +66,10 @@
         justify-content: center;
         margin: 100px 0 30px;
 
+        @media screen and (max-width: 409px) {
+            align-items: end;
+        }
+
         img {
             margin-right: 15px;
             width: 24px;
